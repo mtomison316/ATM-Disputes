@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget/>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>false</advanced>
+        <description_field>description</description_field>
+        <info_fields>opened_by,customer_name,transaction_type_not_card_type,customer_daytime_phone_number,customer_home_phone_number</info_fields>
+        <info_widget/>
+        <info_widget_param/>
+        <show_description>always</show_description>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>MAB005</sys_created_by>
+        <sys_created_on>2023-09-14 21:19:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f7cbe69d87113998bd18642c8bbb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_atm_disp_0_dispute</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+        <sys_update_name>ticket_configuration_f7cbe69d87113998bd18642c8bbb352a</sys_update_name>
+        <sys_updated_by>MAB005</sys_updated_by>
+        <sys_updated_on>2023-09-14 21:19:41</sys_updated_on>
+        <table>x_umbfr_atm_disp_0_dispute</table>
+    </ticket_configuration>
+</record_update>

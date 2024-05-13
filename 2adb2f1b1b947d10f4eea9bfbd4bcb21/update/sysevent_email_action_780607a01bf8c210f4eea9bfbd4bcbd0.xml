@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_umbfr_atm_disp_0_dispute</collection>
+        <condition table="x_umbfr_atm_disp_0_dispute">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">An EFT Error Research Request ${number} has been opened on ${opened_at} by ${opened_by}.</span></p>
+<p><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">Customer Name: ${customer_name}</span></p>
+<p><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">Description: ${description}</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click here to view the record: ${URI_REF}</span></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ETF Error Research Opened and Assigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>5744835113d7ab88c50eb3b12244b01d,d03390331b985d50af8d437cdc4bcb76</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>EFT Error Research Request ${number} has been opened.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>MAB005</sys_created_by>
+        <sys_created_on>2024-03-04 14:56:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>780607a01bf8c210f4eea9bfbd4bcbd0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ETF Error Research Opened and Assigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+        <sys_update_name>sysevent_email_action_780607a01bf8c210f4eea9bfbd4bcbd0</sys_update_name>
+        <sys_updated_by>MAB005</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:34:31</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <u_hide_in_preferences>false</u_hide_in_preferences>
+        <u_remove_from_prefs>false</u_remove_from_prefs>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

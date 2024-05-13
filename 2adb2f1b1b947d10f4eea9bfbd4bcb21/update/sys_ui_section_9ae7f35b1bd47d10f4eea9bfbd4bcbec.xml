@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Branch Information" section_id="9ae7f35b1bd47d10f4eea9bfbd4bcbec" sys_domain="global" table="x_umbfr_atm_disp_0_dispute" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>0</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 14:34:30</sys_created_on>
+            <sys_id>0bc535621bd13d10f4eea9bfbd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:34:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by.phone</element>
+            <position>1</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 14:34:30</sys_created_on>
+            <sys_id>03c535621bd13d10f4eea9bfbd4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:34:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>branch_location</element>
+            <position>2</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 14:34:30</sys_created_on>
+            <sys_id>83c535621bd13d10f4eea9bfbd4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:34:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 14:34:30</sys_created_on>
+            <sys_id>07c535621bd13d10f4eea9bfbd4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:34:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 14:34:30</sys_created_on>
+            <sys_id>87c535621bd13d10f4eea9bfbd4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:34:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 14:34:30</sys_created_on>
+            <sys_id>0bc535621bd13d10f4eea9bfbd4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:34:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Branch Information</caption>
+            <header>false</header>
+            <name>x_umbfr_atm_disp_0_dispute</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 14:55:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_umbfr_atm_disp_0_dispute</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+            <sys_update_name>sys_ui_section_9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_update_name>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 14:55:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

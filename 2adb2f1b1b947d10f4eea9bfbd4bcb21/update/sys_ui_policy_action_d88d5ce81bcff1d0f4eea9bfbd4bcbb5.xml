@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>close_notes</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>MAB005</sys_created_by>
+        <sys_created_on>2023-12-08 02:50:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d88d5ce81bcff1d0f4eea9bfbd4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d88d5ce81bcff1d0f4eea9bfbd4bcbb5</sys_update_name>
+        <sys_updated_by>MAB005</sys_updated_by>
+        <sys_updated_on>2023-12-08 02:50:52</sys_updated_on>
+        <table>x_umbfr_atm_disp_0_dispute</table>
+        <ui_policy display_value="Mandatory Closed Fields">384d90e81bcff1d0f4eea9bfbd4bcb64</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

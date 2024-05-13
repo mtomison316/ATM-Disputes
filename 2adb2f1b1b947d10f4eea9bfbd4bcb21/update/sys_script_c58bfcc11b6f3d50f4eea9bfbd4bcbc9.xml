@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_umbfr_atm_disp_0_dispute</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_umbfr_atm_disp_0_dispute">date_customer_notified_bankVALCHANGES^EQ<item endquery="false" field="date_customer_notified_bank" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>UMB - Set Provisional Credit Due Date</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var notificationDate = new GlideDateTime(current.date_customer_notified_bank); //get date from the Date Customer Notified Bank field
+    var businessDays = 9; //9 days
+    var dur = new GlideDuration(60 * 60 * 1000 * 24 * businessDays); //math
+    var schedule = new GlideSchedule('33ea7c811b6f3d50f4eea9bfbd4bcb07'); //ATM Disputes - Business Days schedule
+    var dueDate = schedule.add(notificationDate, dur); //get end date
+	var dueDateGD = new GlideDate();
+	dueDateGD.setValue(dueDate.getDate()); //convert string to GlideDate object
+    current.u_credit_due_date = dueDateGD; //set Provisional Credit Due Date field
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>MAB005</sys_created_by>
+        <sys_created_on>2024-01-03 14:57:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c58bfcc11b6f3d50f4eea9bfbd4bcbc9</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>UMB - Set Provisional Credit Due Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+        <sys_update_name>sys_script_c58bfcc11b6f3d50f4eea9bfbd4bcbc9</sys_update_name>
+        <sys_updated_by>MAB005</sys_updated_by>
+        <sys_updated_on>2024-01-22 02:56:04</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

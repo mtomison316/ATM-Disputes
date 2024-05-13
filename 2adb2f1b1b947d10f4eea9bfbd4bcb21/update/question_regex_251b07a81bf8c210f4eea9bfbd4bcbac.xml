@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Currency ($)</name>
+        <regex>^\$[0-9]*\.[0-9]{2}$</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>MAB005</sys_created_by>
+        <sys_created_on>2024-03-04 15:19:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>251b07a81bf8c210f4eea9bfbd4bcbac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Currency ($)</sys_name>
+        <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+        <sys_update_name>question_regex_251b07a81bf8c210f4eea9bfbd4bcbac</sys_update_name>
+        <sys_updated_by>MAB005</sys_updated_by>
+        <sys_updated_on>2024-03-04 15:26:06</sys_updated_on>
+        <validation_message>Currency formation is not correct</validation_message>
+    </question_regex>
+</record_update>

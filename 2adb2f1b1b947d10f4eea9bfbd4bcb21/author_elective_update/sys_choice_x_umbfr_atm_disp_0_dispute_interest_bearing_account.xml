@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="interest_bearing_account" table="x_umbfr_atm_disp_0_dispute" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>interest_bearing_account</element>
+            <name>x_umbfr_atm_disp_0_dispute</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 15:31:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>interest_bearing_account</sys_name>
+            <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+            <sys_update_name>sys_choice_x_umbfr_atm_disp_0_dispute_interest_bearing_account</sys_update_name>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 15:31:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interest_bearing_account</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_umbfr_atm_disp_0_dispute</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 15:31:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 15:31:43</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interest_bearing_account</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_umbfr_atm_disp_0_dispute</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 15:31:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 15:31:43</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interest_bearing_account</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_umbfr_atm_disp_0_dispute</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 15:31:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 15:31:43</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

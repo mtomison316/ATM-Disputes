@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2bdce79b1b947d10f4eea9bfbd4bcba1" extends="task" label="Dispute" max_length="40" name="x_umbfr_atm_disp_0_dispute" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Amount of Transaction" max_length="40" name="amount_of_transaction" type="string"/>
+        <element attributes="ref_ac_columns=location,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="Location" mandatory="true" max_length="32" name="branch_location" reference="u_cmdb_ci_atm" reference_qual="install_status!=7^EQ" reference_qual_condition="install_status!=7^EQ" type="reference"/>
+        <element choice="1" label="Is the Account to which the Ultra or Ultra II Card is tied Interest Bearing?" max_length="40" name="card_interest_bearing" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Customer Address" max_length="100" name="customer_address" type="string"/>
+        <element label="Daytime Phone Number" max_length="40" name="customer_daytime_phone_number" type="ph_number"/>
+        <element label="Home Phone Number" max_length="40" name="customer_home_phone_number" type="ph_number"/>
+        <element attributes="format=none" label="Last Four Digits of ATM Card Number" mandatory="true" max_length="40" name="customer_last_four_digits_of_atm_card_number" type="integer"/>
+        <element label="Customer Name" mandatory="true" max_length="40" name="customer_name" type="string"/>
+        <element attributes="format=none" label="Primary DDA or SAV # Card Tied To" mandatory="true" max_length="40" name="customer_primary_dda_or_sav_card_tied_to" type="integer"/>
+        <element label="Date Customer Notified Bank" mandatory="true" max_length="40" name="date_customer_notified_bank" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Dispute Amount if Differs from Transaction Amount" max_length="40" name="dispute_amount_if_differs_from_transaction_amount" type="string"/>
+        <element label="Description on THFR" max_length="80" name="dispute_description_on_thfr" type="string"/>
+        <element label="Post date on THFR" max_length="40" name="dispute_post_date_on_thfr" type="glide_date"/>
+        <element choice="1" label="Notified By" mandatory="true" max_length="40" name="notified_by" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Phone" sequence="0" value="phone"/>
+                <element inactive_on_update="false" label="In Person" sequence="1" value="in_person"/>
+            </choice>
+        </element>
+        <element choice="1" label="ATM Type" max_length="40" name="transaction_type_not_card_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UMB ATM" sequence="1" value="umb atm"/>
+                <element inactive_on_update="false" label="Non-UMB ATM" sequence="2" value="non-umb atm"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="u_close_code" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Closed Approved" sequence="0" value="closed approved"/>
+                <element inactive_on_update="false" label="Closed Denied" sequence="1" value="closed denied"/>
+                <element inactive_on_update="false" label="Closed Unable to Complete" sequence="2" value="closed unable to complete"/>
+                <element inactive_on_update="false" label="Closed Forwarded" sequence="3" value="closed forwarded"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Provisional Credit Due Date" max_length="40" name="u_credit_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transaction Type" mandatory="true" max_length="40" name="u_transaction_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Deposit" sequence="0" value="deposit"/>
+                <element inactive_on_update="false" label="Withdrawl" sequence="1" value="withdrawl"/>
+            </choice>
+        </element>
+    </element>
+</database>

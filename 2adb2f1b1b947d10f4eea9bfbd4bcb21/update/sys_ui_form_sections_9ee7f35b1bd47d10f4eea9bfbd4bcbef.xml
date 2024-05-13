@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9ee7f35b1bd47d10f4eea9bfbd4bcbef" sys_domain="global" table="x_umbfr_atm_disp_0_dispute" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 14:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ae7f35b1bd47d10f4eea9bfbd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_umbfr_atm_disp_0_dispute" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ee7f35b1bd47d10f4eea9bfbd4bcbef</sys_ui_form>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ae7f35b1bd47d10f4eea9bfbd4bcbec</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 14:55:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 14:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b6e7375b1bd47d10f4eea9bfbd4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_umbfr_atm_disp_0_dispute" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ee7f35b1bd47d10f4eea9bfbd4bcbef</sys_ui_form>
+            <sys_ui_section caption="Dispute Information" display_value="Dispute Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">1ee7f35b1bd47d10f4eea9bfbd4bcbed</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 14:55:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-09-18 20:26:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d1760be61b517d10f4eea9bfbd4bcb36</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_umbfr_atm_disp_0_dispute" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ee7f35b1bd47d10f4eea9bfbd4bcbef</sys_ui_form>
+            <sys_ui_section caption="Comments/Activity" display_value="Comments/Activity" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">dd760be61b517d10f4eea9bfbd4bcb31</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2024-01-02 17:07:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-12-08 02:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0fac50a81bcff1d0f4eea9bfbd4bcb5e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_umbfr_atm_disp_0_dispute" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">9ee7f35b1bd47d10f4eea9bfbd4bcbef</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_umbfr_atm_disp_0_dispute" sys_domain="global" view="Default view">47ac10a81bcff1d0f4eea9bfbd4bcbc4</sys_ui_section>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2024-01-02 17:07:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_umbfr_atm_disp_0_dispute</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>MAB005</sys_created_by>
+            <sys_created_on>2023-08-02 14:55:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ee7f35b1bd47d10f4eea9bfbd4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_umbfr_atm_disp_0_dispute</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATM Dispute" source="x_umbfr_atm_disp_0">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATM Dispute">2adb2f1b1b947d10f4eea9bfbd4bcb21</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9ee7f35b1bd47d10f4eea9bfbd4bcbef</sys_update_name>
+            <sys_updated_by>MAB005</sys_updated_by>
+            <sys_updated_on>2023-08-02 14:55:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
